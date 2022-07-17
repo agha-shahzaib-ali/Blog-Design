@@ -1,0 +1,135 @@
+@media (max-width: 950px){
+/* Navigation Section */
+nav {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    }
+.logo{
+    background: #7e7ea4;
+}
+.logo, .navBar {
+        display: inline-block;
+        text-align: center;
+    }
+.navBar ul li {
+        display: block;
+        background: #6c6c84;
+        margin: 2% auto;
+        width: 38%;
+        text-align: center;
+      }
+
+.cover{
+       display: none;
+   }
+.Main{
+    display: flex;
+    flex-direction: column;
+    }
+/* Center Card of Pictures Section */
+.card{
+       width: 100%;
+   }
+.itemsUpper{
+       display: flex;
+       flex-direction: column;
+   }
+.item{
+       width: 100%;
+       margin-bottom: 4%;
+   }
+/* SideBar Section */
+.sideBars {
+    flex-basis: 100%;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+  }
+.Search {
+    background: #ffffff;
+    margin: 0% -3% 2% 8.5%;
+    max-width: 107%;
+    padding: 3.5%;
+    border-radius: 25px;
+    border: 3px solid #f4f0f0;
+    width: 72vw;
+  }
+.catalouge{
+    max-width: 100%;
+    display: block;
+}
+/* Selling Items Section */
+.CartItems {
+    margin-bottom: 3%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+.CartItem{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+}
+/* Subscription Section */
+.Subscribe {
+    width: 90%;
+    margin: 3% auto;
+    display: flex;
+    flex-direction: column;
+  }
+.sub{
+    padding: 3%;
+    background: #dddddd;
+    border-radius: 9px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.imageRight {
+    width: 100%;
+    display: none;
+  }
+.email button{
+    padding: 2%;
+    width: 32%;
+  }
+.email input[type="email"] {
+    padding: 2.45% 7%;
+    width: 60%;
+    border-radius: 20px;
+    border: none;
+    margin: 8.4% 0;
+  }
+.sub h1 {
+    padding: 4%;
+    text-align: center;
+  }
+/* Footer */
+.foot {
+    margin: 2.5% auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+  }
+.foot h3 {
+    margin-bottom: 0;
+    font-size: 24px;
+  }
+.footer li {
+    list-style: none;
+    margin: 2% 0;
+  }
+.contact ul li a {
+    text-decoration: none;
+    color: #1e205a;
+    margin: 3.5%;
+  }
+
+}
